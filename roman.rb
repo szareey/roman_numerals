@@ -21,7 +21,7 @@ def convert_to_roman(num)
     (working_num / val).times {result << rom.to_s}
     working_num %= val
   end
-  return result
+  result
 end
 
 puts 'This app accepts a decimal-based int and returns the Roman Numeric equivlent'
